@@ -14,6 +14,9 @@ Here is an example:
 Commands:
   help: Here is a help message.
   command1: This is command one.
+  multiLineComment: |
+    This will appear
+    as it looks
 ```
 
 Typing `!help` in discord would trigger Helpful-Steve to respond with `Here is a help message.`
