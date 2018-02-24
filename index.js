@@ -21,9 +21,9 @@ bot.on('message', msg => {
     const command = msg.content.substr(1)
     if (commandMap.has(command)) {
       msg.channel.send(commandMap.get(command))
+    } else {
+      msg.channel.send('I dont know that command; try !help.')
     }
-  } else {
-    msg.channel.send('I dont know that command; try !help.')
   }
 });
 
